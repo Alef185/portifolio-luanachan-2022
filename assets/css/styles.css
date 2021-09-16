@@ -334,12 +334,26 @@ img{
   margin-bottom: var(--mb-4);
 }
 .contact__button{
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
+  display: inline-block;
+	color: #fff;
+	padding: 10px 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 0.5s;
+	background: var(--first-color);
+	letter-spacing: 2px;
+	border-radius: 2px;
+	border: none;
+	font-size: 1em;
+}
+.contact__button:hover{
+  letter-spacing: 4px;
+  background: var(--second-color);
+  color: #fff;
+  border-radius: 50px;
 }
 
 /* ===== FOOTER =====*/
