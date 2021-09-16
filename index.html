@@ -218,10 +218,11 @@
 
                 <div class="contact__container bd-grid">
                     <form action="https://formsubmit.co/contato.luanachan@gmail.com" method="POST" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
+                        <input type="text" placeholder="Name" class="contact__input" required>
+                        <input type="mail" placeholder="Email" class="contact__input" required>
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input" required></textarea>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="submit" value="Enviar" id="btnEnviar" class="contact__button button">
                     </form>
                 </div>
             </section>
