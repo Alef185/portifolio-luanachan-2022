@@ -318,6 +318,9 @@ img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
+  border-top: 2px solid var(--first-color);
+  border-left: 2px solid var(--first-color);
+  padding: 10px;
 }
 .work__img img{
   transition: 1s;
